@@ -1,0 +1,121 @@
+*{margin: 0;padding: 0;}
+html{font-size: 20px; font-family: "微软雅黑"}
+header{
+    width: 16rem;
+    height: 2.525rem;
+    background: -webkit-linear-gradient(#fcfcfc,#ececec);
+    position: relative;
+    text-align: center;
+    line-height: 2.525rem;
+}
+header a.return{
+    display: block;
+    width: 3.25rem;
+    height: 1.6rem;
+    background: url("../images/btn.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    left:0.5rem;
+    top:0.5rem;
+}
+header p{
+    font-size: 0.7rem;
+}
+header a.kinds{
+    display: block;
+    width: 2.575rem;
+    height: 1.575rem;
+    background: url("../images/kinds.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    right:0.5rem;
+    top:0.5rem;
+}
+
+.content ul{}
+.content ul li a{
+    display: block;
+    height: 4rem;
+    padding: 1rem;
+    border-bottom: 0.025rem solid #dcdcdc;
+}
+.content ul li div{
+    float: left;
+    width: 6rem;
+    border:0.025rem solid #dcdcdc;
+    margin-right: 0.4rem;
+}
+.content ul li div img{
+    width: 5.6rem;
+    height: 3.6rem;
+    margin: 0.175rem;
+}
+.content ul li p{
+    width: 7rem;
+}
+.content ul li p.p1{
+    font-size: 0.65rem;
+    color: #000;
+}
+.content ul li p.p1 span{
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: #d51938;
+    margin-right: 0.1rem;
+}
+.content ul li p.p2{
+    color: #c3213c;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin:0.25rem 0 ;
+}
+.content ul li .p2 i{
+    font-size: 0.6rem;
+}
+.content ul li .p2 em{
+    font-size: 0.5rem;
+}
+.content ul li p.p3{
+    font-size: 0.45rem;
+    color: #999999;
+    text-decoration: line-through;
+    position: relative;
+}
+.content ul li p.p3 span{
+    display: block;
+    width: 2.6rem;
+    text-align: center;
+    background: #39b54a;
+    color: #fff;
+    border-radius: 0.1rem;
+    text-decoration: none;
+    position: absolute;
+    left: 5rem;
+}
+.content ul li p.special{
+    width: 2rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.45rem;
+    background: #ee8808;
+    color: #fff;
+    border-radius: 0.15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

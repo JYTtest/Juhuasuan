@@ -1,0 +1,82 @@
+*{margin: 0;padding: 0;}
+html{font-size: 20px; font-family: "微软雅黑"}
+header{
+    width: 16rem;
+    height: 2.525rem;
+    background: -webkit-linear-gradient(#fcfcfc,#ececec);
+    position: relative;
+    text-align: center;
+    line-height: 2.525rem;
+}
+header a.return{
+    display: block;
+    width: 3.25rem;
+    height: 1.6rem;
+    background: url("../images/btn.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    left:0.5rem;
+    top:0.5rem;
+}
+header p{
+    font-size: 0.75rem;
+}
+
+.nav ul{
+    width: 16rem;
+    height: 2rem;
+}
+.nav ul li a{
+    height: 2rem;
+    width: 3.9rem;
+    line-height: 2rem;
+    text-align: center;
+    border:0.025px solid #dcdcdc;
+    border-top: none;
+    float: left;
+    color:#b2b2b2;
+    font-size: 0.6rem;
+}
+.nav ul li a.on{color: #d51942;}
+
+.list ul{
+}
+.list ul li a{
+    display: block;
+    padding: 1rem 0.5rem 0.75rem 0.5rem;
+    border-bottom: 0.025rem solid #dcdcdc;
+}
+.list ul li a div{
+    height: 5rem;
+    width: 5rem;
+    float: left;
+}
+.list ul li a div img{
+    height: 3.6rem;
+    width: 5rem;
+}
+.list ul li a div p i{
+    float: left;
+    width: 2.875rem;
+    text-indent: 0.8rem;
+    font-size: 1.075rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+    color:#c7223d ;
+}
+.list ul li a div p em{
+    float: left;
+    font-size: 0.55rem;
+    color: #adadad;
+}
+.list ul li a div p span{
+    float: left;
+    font-size: 0.55rem;
+    color: #c7223d;
+}
+.list ul li a img{
+    float: left;
+    height: 5rem;
+    width: 10rem;
+}

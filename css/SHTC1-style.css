@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;}
+html{font-size: 20px; font-family: "微软雅黑"}
+header{
+    width: 16rem;
+    height: 2.525rem;
+    background: -webkit-linear-gradient(#fcfcfc,#ececec);
+    position: relative;
+    text-align: center;
+    line-height: 2.252rem;
+}
+header a.return{
+    display: block;
+    width: 3.25rem;
+    height: 1.6rem;
+    background: url("../images/btn.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    left:0.5rem;
+    top:0.5rem;
+}
+header img{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+header a.kinds{
+    display: block;
+    width: 2.575rem;
+    height: 1.575rem;
+    background: url("../images/kinds.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    right:0.5rem;
+    top:0.5rem;
+}
+
+.nav ul{
+    width: 16rem;
+    height: 2rem;
+}
+.nav ul li a{
+    height: 2rem;
+    width: 3.9rem;
+    line-height: 2rem;
+    text-align: center;
+    border:0.025px solid #dcdcdc;
+    border-top: none;
+    float: left;
+    color:#b2b2b2;
+    font-size: 0.6rem;
+}
+.nav ul li a.on{color: #d51942;}
+
+.content ul li a{
+    display: block;
+    height: 4rem;
+    padding: 1rem;
+    border-bottom: 0.025rem solid #dcdcdc;
+}
+.content ul li div{
+    float: left;
+    width: 6rem;
+    border:0.025rem solid #dcdcdc;
+    margin-right: 0.4rem;
+}
+.content ul li div img{
+    width: 5.6rem;
+    height: 3.6rem;
+    margin: 0.175rem;
+}
+.content ul li p{
+    width: 7.5rem;
+}
+.content ul li p.p1{
+    font-size: 0.65rem;
+    color: #000;
+}
+.content ul li p.p2{
+    color: #c3213c;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin:0.25rem 0 ;
+}
+.content ul li .p2 i{
+    font-size: 0.6rem;
+}
+.content ul li .p2 em{
+    font-size: 0.5rem;
+}
+.content ul li p.p2 span{
+    font-size: 0.45rem;
+    text-decoration: line-through;
+    font-weight: normal;
+    color: #999999;
+    margin-left: 0.3rem;
+}
+.content ul li p.p3{
+    font-size: 0.45rem;
+    color: #999999;
+}
+.content ul li p.special{
+    width: 2rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.45rem;
+    background: #ee8808;
+    color: #fff;
+    border-radius: 0.15rem;
+}
+.content ul li.last a{
+    border-bottom:0;
+    height: 2.775rem;
+}
+.content ul li.last img{
+    height: 2.775rem;
+    width: 5.6rem;
+    margin: 0.175rem 0.175rem 0 0.175rem;
+    padding-bottom: 0;
+}
+
+
+.other{
+    width: 16rem;
+    height: 28.4rem;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.other .shou{
+    background: url("../images/shou.png");
+    background-size:100% ;
+    display: block;
+    width: 0.8rem;
+    height: 0.7rem;
+    position: absolute;
+    left: 0.8rem;
+    top:50%;
+    margin-left: -0.4rem;
+}
+.other div{
+    width: 14rem;
+    height: 28.4rem;
+    background: #333;
+    color: #aaa;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+.other div nav{
+    width: 13.5rem;
+    height: 2.55rem;
+    padding: 0 0.5rem;
+    border: 0.05rem solid #404040;
+}
+.other div nav a{
+    float: left;
+    width: 5.8rem;
+    height: 2.55rem;
+    line-height: 2.55rem;
+    text-align: center;
+    font-size: 0.7rem;
+    color: #fff;
+}
+.other div nav a.left{
+    height: 2.45rem;
+    border-bottom: 0.1rem solid #fff;
+}
+.other ul{
+    float: left;
+    width: 7rem;
+    padding-top: 0.35rem;
+}
+.other ul li a{
+    display: block;
+    width: 7.075rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.65rem;
+    text-indent: 1.5rem;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1" />
+    <title>Title</title>
+    <link href="../css/jbp-style.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <script>
+        var rem=20;
+        (function (win, doc) {
+            rem=20/320*doc.documentElement.clientWidth;
+            doc.documentElement.style.fontSize=rem+'px';
+            win.addEventListener('resize', function () {
+                rem=20/320*doc.documentElement.clientWidth;
+                doc.documentElement.style.fontSize=rem+'px';
+            },false)
+        })(window,document);
+
+    </script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">返回</a>
+        <p>聚宝盆</p>
+    </header>
+    <section class="banner">
+        <ul>
+            <li><img src="../images/jbp-banner.png" alt=""></li>
+            <li><img src="../images/jbp-banner.png" alt=""></li>
+            <li><img src="../images/jbp-banner.png" alt=""></li>
+            <li><img src="../images/jbp-banner.png" alt=""></li>
+            <li><img src="../images/jbp-banner.png" alt=""></li>
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="on"></li>
+        </ol>
+    </section>
+    <section class="list">
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <img src="../images/jbp1.png" alt="">
+                    <p class="p1">
+                        聚名品
+                        <span>轻奢购物第一站</span>
+                        <em></em>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="../images/jbp2.png" alt="">
+                    <p class="p2">
+                        聚家族
+                        <span>假装一起团 费用省一半</span>
+                        <em></em>
+                    </p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="../images/jbp3.png" alt="">
+                    <p class="p3">
+                        聚 透
+                        <span>每晚8点 预定明日商品</span>
+                        <em></em>
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+</body>
+</html>

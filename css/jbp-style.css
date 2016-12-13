@@ -1,0 +1,99 @@
+*{margin: 0;padding: 0;}
+html{font-size: 20px; font-family: "微软雅黑"}
+header{
+    width: 16rem;
+    height: 2.525rem;
+    background: -webkit-linear-gradient(#fcfcfc,#ececec);
+    position: relative;
+    text-align: center;
+    line-height: 2.525rem;
+}
+header a{
+    display: block;
+    width: 3.25rem;
+    height: 1.6rem;
+    background: url("../images/btn.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    left:0.5rem;
+    top:0.5rem;
+}
+header p{
+    font-size: 0.75rem;
+}
+
+
+.banner{
+    overflow: hidden;
+    height:6.25rem;
+    position: relative;
+}
+.banner ul{
+    list-style: none;
+    width: 80rem;
+}
+.banner ul li img{
+    float: left;
+    width: 16rem;
+    height:6.25rem;
+}
+.banner ol{
+    width:2.5rem ;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left: -1.25rem;
+}
+.banner ol li{
+    width: 0.25rem;
+    height: 0.25rem;
+    margin:0 0.125rem;
+    background: #a9a9a9;
+    border-radius: 50%;
+    float: left;
+}
+.banner ol li.on{background: #ff4300}
+
+.list ul li a{
+    display: block;
+    padding: 1rem 0.825rem;
+    overflow: hidden;
+}
+.list ul li img{
+    width: 1.95rem;
+    height: 1.95rem;
+    float: left;
+
+}
+.list ul li p{
+    width: 12.4rem;
+    font-size: 0.8rem;
+    float: left;
+    text-indent: 1rem;
+    font-weight: bold;
+    position: relative;
+}
+.list ul li p.p1{color: #6a237f;}
+.list ul li p.p2{color: #9e5f44;}
+.list ul li p.p3{color: #8db46d;}
+span{
+    display: block;
+    font-size: 0.6rem;
+    font-weight: normal;
+    color: #999999;
+}
+em{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background: url("../images/1.png");
+    background-size: 100%;
+    position: absolute;
+    right: 0.5rem;
+    top:50%;
+    margin-top: -0.5rem;
+}
+
+
+

@@ -1,0 +1,120 @@
+*{margin: 0;padding: 0;}
+html{font-size: 20px; font-family: "微软雅黑"}
+header{
+    width: 16rem;
+    height: 2.525rem;
+    background: -webkit-linear-gradient(#fcfcfc,#ececec);
+    position: relative;
+    text-align: center;
+    line-height: 2.525rem;
+}
+header a.return{
+    display: block;
+    width: 3.25rem;
+    height: 1.6rem;
+    background: url("../images/btn.png")no-repeat;
+    background-size: 100%;
+    text-indent:-999em;
+    position: absolute;
+    left:0.5rem;
+    top:0.5rem;
+}
+header p{
+    font-size: 0.75rem;
+}
+
+.banner{
+    width: 16rem;
+    height: 8rem;
+    position: relative;
+}
+.banner img{
+    width: 16rem;
+    height: 8rem;
+}
+.banner div{
+    width: 16rem;
+    line-height: 1.3rem;
+    text-indent: 0.5rem;
+    background: rgba(0,0,0,0.5);
+    color:#fff;
+    position: absolute;
+    left: 0;
+    bottom:0rem;
+}
+
+.nike-nav{
+    width: 16rem;
+    height:3rem ;
+}
+
+.list ul li a{
+    display: block;
+    padding:0.55rem 0.4rem;
+    overflow: hidden;
+    border-bottom: 0.025rem solid #dcdcdc;
+}
+.list ul li a img{
+    width: 5.8rem;
+    height: 3.45rem;
+    border: 0.025rem solid #dcdcdc;
+    float: left;
+}
+.list ul li div{
+    float: left;
+    padding: 0 0.6rem;
+}
+.list ul li div p{
+    width: 8rem;
+    font-size: 0.65rem;
+    color: black;
+}
+.list ul li p.p1{
+    font-size: 0.65rem;
+}
+.list ul li p.p2{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #c3213c;
+}
+.list ul li p.p2 span{
+    font-size: 0.45rem;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 0.2rem;
+}
+.list ul li p.pp1{
+    width: 3rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.45rem;
+    color: #fff;
+    margin-top: 0.3rem;
+    background:#3b8bc8;
+    border-radius: 0.2rem;
+}
+.list ul li a.aa2{background: #f4efea;}
+.list ul li p.pp2{
+    width: 3rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.45rem;
+    color: #fff;
+    margin-top: 0.3rem;
+    background:#ccc;
+    border-radius: 0.2rem;
+}
+.list ul li p.pp3{
+     width: 3rem;
+     height: 0.8rem;
+     text-align: center;
+     line-height: 0.8rem;
+     font-size: 0.45rem;
+     color: #fff;
+     margin-top: 0.3rem;
+     background:#449900;
+     border-radius: 0.2rem;
+ }
